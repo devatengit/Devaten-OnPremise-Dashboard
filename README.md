@@ -21,7 +21,17 @@ Login with
 ```Username: admin@system.com```
 ```Password: 123456```
 
-Once you Log in click on Billing tab and select the Package Verification option. You can get Verification Key by Signing Up to [app.devaten.com](https://app.devaten.com/). When you Sign Up to Devaten you receive Welcome Mail & Activation Key mail. So you can verify your On-Premise Package with that Key ```OR```
+Once you Log in, click on Billing tab and select the Package Verification option. You can get Verification Key by Signing Up to [app.devaten.com](https://app.devaten.com/). When you Sign Up to Devaten you receive Welcome Mail & Activation Key Mail. So you can verify your On-Premise Package with that Key ```OR```
 You can contact Devaten for the Subscription Package.  
 
 After activation of your package log out from Admin Account. Now your Dashboard setup is ready for User. To use this application, you need to sign up with your own E-Mail and Log in with your credentials, use the application.
+
+Now you can add Agent, for that you need On-Premise Agent Running on your system. You can get On-Prem Agents from our [GitHub](https://github.com/devatengit)
+To connect ```On-Premise Agent``` to ```On-Premise-Dashboard``` need to do change in On-Premise Agent Docker Compose. You have to add your systems ```IP Address```
+in ```environment``` activemq URL
+
+```- spring.activemq.broker-url=tcp://IP_ADDRESS:61616```
+
+To know more about add Agent, Application, Configure Datasource, Alertings and Start/Stop Recordings you can refer our [Devaten Documents](https://app.devaten.com/#/docs/getting_started).
+
+

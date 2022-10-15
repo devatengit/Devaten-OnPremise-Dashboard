@@ -15,6 +15,4 @@ docker compose up
 it runs the docker images/containers exists in the docker compose file.
 
 when you see the message ```Tomcat started on port(s): 8081``` that means dashboard runs successfully & can access the Devaten using URL-
-```
-localhost:8081
-```
+[localhost:8081](http://localhost:8081/)

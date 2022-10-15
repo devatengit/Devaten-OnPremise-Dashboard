@@ -33,4 +33,7 @@ To connect ```On-Premise Agent``` to ```On-Premise-Dashboard``` need to do chang
 
 To know more about add Agent, Application, Configure Datasource, Alertings and Start/Stop Recordings you can refer our [Devaten Documents](https://app.devaten.com/#/docs/getting_started).
 
-
+After that if you want to stop/remove Docker Containers press ```ctrl + c``` and then run command-
+```
+docker compose down
+```

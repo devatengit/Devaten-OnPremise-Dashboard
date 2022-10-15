@@ -26,12 +26,12 @@ You can contact Devaten for the Subscription Package.
 
 After activation of your package log out from Admin Account. Now your Dashboard setup is ready for User. To use this application, you need to sign up with your own E-Mail and Log in with your credentials, use the application.
 
-Now you can add Agent, for that you need On-Premise Agent Running on your system. You can get On-Prem Agents from our [GitHub](https://github.com/devatengit)
+Firstly add Agent, for that you need On-Premise Agent Running on your system. You can get On-Prem Agents from our [GitHub Repositories](https://github.com/devatengit)
 To connect ```On-Premise Agent``` to ```On-Premise-Dashboard``` need to do change in ```On-Premise Agent Docker Compose```. You have to add your systems ```IP Address``` in Docker Compose ```environment``` activemq URL
 
 - spring.activemq.broker-url=tcp://```IP_ADDRESS```:61616
 
-To know more about add Agent, Application, Configure Datasource, Alertings and Start/Stop Recordings you can refer our [Devaten Documents](https://app.devaten.com/#/docs/getting_started).
+To know more about how to add Agent, Application, Configure Datasource, Alertings and Start/Stop Recordings you can refer our [Devaten Documents](https://app.devaten.com/#/docs/getting_started).
 
 After that if you want to stop/remove Docker Containers press ```ctrl + c``` and then run command-
 ```

@@ -27,7 +27,8 @@ You can contact Devaten for the Subscription Package.
 After activation of your package log out from Admin Account. Now your Dashboard setup is ready for User. To use this application, you need to sign up with your own E-Mail and Log in with your credentials, use the application.
 
 Firstly add Agent, for that you need On-Premise Agent Running on your system. You can get On-Prem Agents from our [GitHub Repositories](https://github.com/devatengit)
-[named: [OnPremise-MYSQL](https://github.com/devatengit/OnPremise-MYSQL), OnPremise MSSQL, OnPremise-MARIADB, OnPremise-MONGODB, OnPremise-ORACLE, OnPremise-POSTGRESQL]
+
+[named: [OnPremise-MYSQL](https://github.com/devatengit/OnPremise-MYSQL), [OnPremise MSSQL](https://github.com/devatengit/OnPremise-MSSQL), [OnPremise-MARIADB](https://github.com/devatengit/OnPremise-MARIADB), [OnPremise-MONGODB](https://github.com/devatengit/OnPremise-MONGODB), [OnPremise-ORACLE](https://github.com/devatengit/OnPremise-ORACLE), [OnPremise-POSTGRESQL](https://github.com/devatengit/OnPremise-POSTGRESQL)]
 
 To connect ```On-Premise Agent``` to ```On-Premise-Dashboard``` need to do change in ```On-Premise Agent Docker Compose```. You have to add your systems ```IP Address``` in ```environment:```
 
